@@ -1,0 +1,136 @@
+body {
+	margin:0;
+}
+
+.main {
+	margin: 0;
+	padding: 0;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	/*clear: left;*/
+}
+
+
+
+/*.wrapper {
+	width: 900px;
+	margin: 0 auto;
+}*/
+
+
+
+div#header {
+	width:900px;
+	height: 130px;
+    top:0px;
+    position:fixed;
+    background-image:url(../img/bg.png);
+	z-index:1;
+}
+
+h1#logo { 
+	width: 207px;
+	height: 64px;
+	float: left;
+}
+
+ul#menu {
+	width: auto;
+	float: right;
+	padding-top: 50px;
+	
+}
+
+ul#menu li {
+	list-style-type: none;
+	border: none;
+	float: left;
+	margin-left:  20px;
+}
+
+/*.sticky #header {
+	position:fixed;
+	top:0;	
+	width: 900px;
+	height: auto;
+	background-color: #fff;
+	filter:alpha(opacity=40);  
+	opacity: 0.4;
+}*/
+
+img#indexphoto {
+	margin-bottom: 46px;
+}
+
+div#mishimatomizu {
+	width: 900px;
+	height: auto;
+	background-image: url(img/mishimaeki.jpg);
+	color: #000000;
+}
+
+p.text01 {
+	color: #fff;
+	font-size: 13px;
+	position: absolute;
+	top: 430px;
+	left: 237px;
+	width: 500px;
+}
+
+p#text02 {
+	width: 890px;
+	left: 10px;
+	color: #000;
+	font-size: 15px;
+	font-family: serif;
+	letter-spacing: 0.15em;
+	line-height: 270%;
+}
+
+p.text05 {
+	width: 890px;
+	left: 10px;
+	color: #000;
+	font-size: 15px;
+	font-family: serif;
+	letter-spacing: 0.15em;
+	line-height: 270%;	
+}
+
+.contents {
+	height: auto;
+	overflow-x: visible;
+	overflow-y: auto;
+	width: auto;
+}
+
+div#footer {
+	height: 100px;
+	color: rgb(230,245,213);
+	background-color: rgb(78,179,211);
+	font-size: 12px;
+	text-align: center;
+    bottom:0px;
+    width:100%;
+}
+
+a:link {
+    color: rgb(255,255,102);
+    font-style: normal;
+    text-decoration: none;	
+}
+
+a:visited {
+    color: rgb(255,255,102);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(255,255,102);
+    font-style: normal;
+    text-decoration: none;
+}
+a:active {
+    text-decoration:none;
+}
